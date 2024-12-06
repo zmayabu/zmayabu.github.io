@@ -1,0 +1,73 @@
+/* src/pages/Home.css */
+
+.home-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  .hero {
+    background-color: #ffccf9; /* Soft pink */
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    color: #5b2c6f; /* Dark purple */
+    font-size: 3em;
+  }
+  
+  .hero p {
+    color: #6a4c9c; /* Lighter purple */
+    font-size: 1.2em;
+  }
+  
+  .intro {
+    padding: 30px;
+    background-color: #f3e5f5; /* Light purple */
+    margin-top: 20px;
+  }
+  
+  .intro h2 {
+    color: #8e44ad; /* Purple */
+    font-size: 2em;
+  }
+  
+  .intro p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  .navigation {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .navigation ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navigation li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  .navigation a {
+    color: #5b2c6f;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navigation a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    text-align: center;
+    background-color: #ffccf9;
+    padding: 20px;
+    margin-top: 30px;
+    color: #5b2c6f;
+  }
+  

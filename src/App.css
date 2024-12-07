@@ -1,0 +1,40 @@
+
+/*Navbar Component */
+.navbar {
+    background-color: #5b2c6f; /* Dark purple */
+    padding: 10px 0;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .navbar-logo {
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .navbar-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline;
+  }
+  

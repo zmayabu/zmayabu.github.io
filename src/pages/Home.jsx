@@ -1,7 +1,5 @@
-// src/pages/Home.jsx
-
 import React from "react";
-import './Home.css'; // Optional: Import separate CSS file for Home page
+import './Home.css'; 
 
 const Home = () => {
   return (

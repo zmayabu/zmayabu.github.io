@@ -1,11 +1,23 @@
 import React from 'react';
-//import './App.css'; // You can create custom styles here
-import Home from './pages/Home'; // This will be the new home page component
+import './App.css';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import Biography from './pages/Biography'; 
+import Portfolio from './pages/Portfolio';
+import { Route, Routes } from 'react-router-dom';
+import Contact from './pages/Contact';
+
 
 function App() {
   return (
     <div className="App">
-      <Home /> {/* Render the Home page here */}
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/biography" element={<Biography />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }

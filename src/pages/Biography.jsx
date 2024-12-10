@@ -48,15 +48,15 @@ const Biography = () => {
             <p>Some photos of me throughout the years!</p>
             <div className="gallery">
                 <figure>
-                    <img src="final-project\public\images\cherry_blossoms.jpg" alt="Zully and Ammar under cherry blossom trees" />
+                    <img src="/images/cherry_blossoms.jpg" alt="Zully and Ammar under cherry blossom trees" />
                     <figcaption>Ammar and I visiting the cherry blossoms in DC</figcaption>
                 </figure>
-                <figure><img src="/images/christmas.jpg" alt="Description 2" />
+                <figure><img src={process.env.PUBLIC_URL + "/images/christmas.jpg"} alt="Christmas" />
                     <figcaption>Ammar and I enjoying the christmas lights in Minneapolis</figcaption>
                 </figure>
-                <figure><img src="/images/eid.jpg" alt="Description 3" />
+                <figure><img src="/images/eid.jpg" alt="Eid 2023" />
                     <figcaption>Ammar and I celebrating Eid in 2023</figcaption></figure>
-                <figure><img src="/images/glow.jpg" alt="Description 4" />
+                <figure><img src="/images/glow.jpg" alt="Glow festival 2024" />
                     <figcaption>Celebrating Glow Christmas Festival this month</figcaption></figure>
 
             </div>

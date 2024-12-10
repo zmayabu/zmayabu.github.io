@@ -19,7 +19,7 @@
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid #FF6F61; 
+  border: 4px solid #FF6F61;
 }
 
 .bio-text {
@@ -30,7 +30,7 @@
 .bio-title {
   font-size: 2.5em;
   color: #003366;
-  font-weight: 600; 
+  font-weight: 600;
   margin: 0;
 }
 
@@ -48,14 +48,18 @@
   padding-bottom: 10px;
 }
 
-.bio-background, .education, .bio-hobbies {
+.bio-background,
+.education,
+.bio-hobbies {
   margin-bottom: 40px;
 }
 
-.bio-background p, .education ul, .bio-hobbies p {
+.bio-background p,
+.education ul,
+.bio-hobbies p {
   font-size: 1.2em;
   line-height: 1.6;
-  color: #333333; 
+  color: #333333;
 
 }
 
@@ -65,20 +69,20 @@
 }
 
 .bio-image:hover {
-  transform: scale(1.05); 
+  transform: scale(1.05);
   transition: transform 0.3s ease-in-out;
 }
 
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 10px; /* Reduced from 20px to 10px */
+  gap: 10px;
   justify-items: center;
   margin-top: 20px;
 }
 
 .gallery figure {
-  background-color: #FFFFFF; /* White card background */
+  background-color: #FFFFFF;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -93,9 +97,9 @@
 }
 
 .gallery img {
-  width: 100%; /* Makes the image span the full width of the container */
-  height: 200px; /* Fixed height to make images uniform */
-  object-fit: cover; /* Ensures the image fits nicely without distortion */
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
   display: block;
 }
 
@@ -108,6 +112,6 @@
 
 @media (max-width: 768px) {
   .gallery img {
-    height: 150px; /* Reduce height for smaller screens */
+    height: 150px;
   }
 }

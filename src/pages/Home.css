@@ -1,61 +1,60 @@
+/* Styling for Contact page */
 
 .home-container {
-    color: #333;
-    background-color: #F5F5F5; 
-  }
-  
-  .hero {
-    padding: 50px 20px;
-    text-align: center;
-  }
-  
-  .hero h1 {
-    color: #003366;
-    font-size: 5em;
-  }
-  
-  .hero p {
-    color: #333333;
-    font-size: 1.2em;
-  }  
+  color: #333;
+  background-color: #F5F5F5;
+}
 
-  .highlight {
-    color: #003366;
-    font-weight: bold;
-  }
+.hero {
+  padding: 50px 20px;
+  text-align: center;
+}
 
-  .home-resume-link {
-    font-size: 16px;
-    font-family: 'Crimson Text', 'Times New Roman', Times, serif;
-    text-decoration: none;
-    padding: 10px 15px;
-    color: #1A5A5D;
-    transition: color 0.3s ease;
-    border: 2px solid #1A5A5D;
-    border-radius: 5px;
-    background-color: transparent;
-    font-weight: bold;
-  }
+.hero h1 {
+  color: #003366;
+  font-size: 5em;
+}
 
-  .home-resume-link:hover {
-    background-color: #1A5A5D;
-    color: #FFFFFF;
-  }
+.hero p {
+  color: #333333;
+  font-size: 1.2em;
+}
 
-  
-  .intro {
-    padding: 30px;
-    margin-top: 20px;
-  }
-  
-  .intro h2 {
-    color: #003366; 
-    font-size: 2em;
-  }
-  
-  .intro p {
-    font-size: 1.1em;
-    line-height: 1.6;
-  }
-  
- 
+.highlight {
+  color: #003366;
+  font-weight: bold;
+}
+
+.home-resume-link {
+  font-size: 16px;
+  font-family: 'Crimson Text', 'Times New Roman', Times, serif;
+  text-decoration: none;
+  padding: 10px 15px;
+  color: #1A5A5D;
+  transition: color 0.3s ease;
+  border: 2px solid #1A5A5D;
+  border-radius: 5px;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.home-resume-link:hover {
+  background-color: #1A5A5D;
+  color: #FFFFFF;
+}
+
+
+.intro {
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.intro h2 {
+  color: #003366;
+  font-size: 2em;
+}
+
+.intro p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}

@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom for navigation
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <h1 className="navbar-logo">Zully's Website</h1>
+        <h1 > <Link to="/" className="navbar-logo"> Zully's Website</Link></h1>
         <ul className="navbar-links">
           <li>
             <Link to="/" className="navbar-link">Home</Link>
@@ -20,9 +20,12 @@ const Navbar = () => {
             <Link to="/contact" className="navbar-link">Contact</Link>
           </li>
           <li>
-          <a href="/downloads/Zully_Maya_CV.pdf" download="Zully_CV.pdf" className="resume-link">
-    Download My Resume
-  </a>
+            <Link to="/resume" className="navbar-link">View CV</Link>
+          </li>
+          <li>
+            <a href="/downloads/Zully_Maya_CV.pdf" download="Zully_CV.pdf" className="resume-link">
+              Download My Resume
+            </a>
           </li>
         </ul>
       </div>

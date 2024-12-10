@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { db } from "../firebase";
 import { collection, addDoc } from "firebase/firestore";
-import "./Contact.css"; // Import the custom CSS
+import "./Contact.css";
 
 const Contact = () => {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
-  const [statusMessage, setStatusMessage] = useState(""); // Add state for status message
+  const [statusMessage, setStatusMessage] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -17,11 +17,10 @@ const Contact = () => {
 
     try {
       await addDoc(collection(db, "contactMessages"), formData);
-      // alert("Message sent successfully!");
-      setStatusMessage("Thank you for reaching out! I will get back to you soon."); // Success message
-      setFormData({ name: "", email: "", message: "" }); // Clear form after submission
+      setStatusMessage("Thank you for reaching out! I will get back to you soon.");
+      setFormData({ name: "", email: "", message: "" }); 
     } catch (error) {
-      setStatusMessage("There was an error sending your message. Please try again later."); // Error message
+      setStatusMessage("There was an error sending your message. Please try again later.");
     }
   };
 
@@ -63,8 +62,7 @@ const Contact = () => {
         />
         <button type="submit">Send Message</button>
       </form>
-       {/* Conditionally render the status message */}
-       {statusMessage && (
+      {statusMessage && (
         <div className="status-message">
           {statusMessage}
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import './Home.css'; 
+import './Home.css';
 
 const Home = () => {
   return (
@@ -13,10 +13,10 @@ const Home = () => {
           Discover my background, projects, and passion for coding via the links above.</p>
         <p>Or check out my resume and connect:</p>
         <a href="/downloads/Zully_Maya_CV.pdf" download="Zully_CV.pdf" className="home-resume-link">
-    Download My Resume
-  </a>
+          Download My Resume
+        </a>
       </header>
-      
+
     </div>
   );
 };

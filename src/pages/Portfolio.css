@@ -1,10 +1,10 @@
-/* General styling for the Portfolio page */
+/* Styling for Portfolio page */
+
 .portfolio {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px;
-    background-color: #fafafa; /* Neutral background */
+    background-color: #F5F5F5;
   }
   
   .portfolio-header {
@@ -14,13 +14,13 @@
   
   .portfolio-header h1 {
     font-size: 2.5em;
-    color: #333; /* Dark gray */
+    color: #003366;
     margin-bottom: 10px;
   }
   
   .portfolio-header p {
     font-size: 1.2em;
-    color: #555; /* Soft gray */
+    color: #333333; 
   }
   
   .skills {
@@ -29,8 +29,8 @@
   
   .skills h2 {
     font-size: 2em;
-    color: #333;
-    border-bottom: 2px solid #dcdcdc;
+    color: #003366;
+    border-bottom: 2px solid #1A5A5D;
     padding-bottom: 10px;
   }
   
@@ -44,10 +44,11 @@
   
   .skills-list li {
     background-color: #e8e8e8;
+    border: 2px dashed #1A5A5D;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 1.1em;
-    color: #333;
+    color: #333333;
   }
   
   .projects {
@@ -56,8 +57,8 @@
   
   .projects h2 {
     font-size: 2em;
-    color: #333;
-    border-bottom: 2px solid #dcdcdc;
+    color: #003366;
+    border-bottom: 2px solid #1A5A5D;
     padding-bottom: 10px;
   }
   
@@ -69,17 +70,40 @@
     margin-bottom: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
+
+  .project-card:hover {
+    transform: scale(1.05); /* Slight zoom for interaction */
+    transition: transform 0.3s ease-in-out;
+  }
   
   .project-card h3 {
     font-size: 1.5em;
-    color: #333;
+    color: #003366;
     margin-bottom: 10px;
   }
   
   .project-card p {
     font-size: 1.1em;
-    color: #555;
+    color: #333333;
   }
+
+  .download-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent; 
+    color: #003366;
+    text-decoration: none;
+    border: 2px solid #003366;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .download-link:hover {
+    background-color: #1A5A5D;
+    color: #FFFFFF;
+  }
+  
   
   .aspirations {
     margin-bottom: 40px;
@@ -87,14 +111,14 @@
   
   .aspirations h2 {
     font-size: 2em;
-    color: #333;
-    border-bottom: 2px solid #dcdcdc;
+    color: #003366;
+    border-bottom: 2px solid #1A5A5D;
     padding-bottom: 10px;
   }
   
   .aspirations p {
     font-size: 1.2em;
     line-height: 1.6;
-    color: #555;
+    color: #333333;
   }
   

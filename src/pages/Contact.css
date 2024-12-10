@@ -1,21 +1,25 @@
+/* Styling for Contact Page */
+
 .contact {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
     max-width: 800px;
     margin: 0 auto;
     padding: 40px;
-    background-color: #fafafa;
+    background-color: #F5F5F5;
+   /* background: linear-gradient(135deg, #f3e7e9, #e3eeff); */
+
+
   }
   
   .contact h1 {
     font-size: 2.5em;
-    color: #333;
+    color: #003366;
     margin-bottom: 20px;
     text-align: center;
   }
   
   .contact p {
     font-size: 1.2em;
-    color: #555;
+    color: #333333;
     text-align: center;
     margin-bottom: 40px;
   }
@@ -27,8 +31,8 @@
   }
   
   .contact-form label {
-    font-size: 1.1em;
-    color: #333;
+    font-size: 1em;
+    color: #333333;
   }
   
   .contact-form input,
@@ -36,10 +40,10 @@
     width: 100%;
     padding: 10px;
     font-size: 1em;
-    border: 1px solid #dcdcdc;
+    border: 2px solid #1A5A5D;
     border-radius: 5px;
     background-color: #fff;
-    color: #333;
+    color: #333333;
   }
   
   .contact-form textarea {
@@ -50,7 +54,7 @@
   .contact-form button {
     padding: 10px 20px;
     font-size: 1.1em;
-    background-color: #4CAF50;
+    background-color: #1A5A5D;
     color: white;
     border: none;
     border-radius: 5px;
@@ -58,7 +62,7 @@
   }
   
   .contact-form button:hover {
-    background-color: #45a049;
+    background-color: #FF6F61;
   }
   
   .success-message {

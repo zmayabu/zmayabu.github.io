@@ -1,10 +1,10 @@
-/* General styling for the Biography page */
+/* Styling for Biography page */
+
 .biography {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px;
-  background-color: #fafafa; /* Very light gray for the background */
+  background-color: #F5F5F5;
 }
 
 .bio-header {
@@ -19,7 +19,7 @@
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid #dcdcdc; /* Light gray border for subtlety */
+  border: 4px solid #FF6F61; 
 }
 
 .bio-text {
@@ -29,61 +29,85 @@
 
 .bio-title {
   font-size: 2.5em;
-  color: #333; /* Dark gray text */
-  font-weight: 600; /* Slightly bold */
+  color: #003366;
+  font-weight: 600; 
   margin: 0;
 }
 
 .bio-intro {
   font-size: 1.2em;
   line-height: 1.6;
-  color: #555; /* Softer gray for readability */
+  color: #333333;
 }
 
 .section-title {
   font-size: 2em;
-  color: #333; /* Dark gray for section titles */
+  color: #003366;
   margin-bottom: 20px;
-  border-bottom: 2px solid #dcdcdc; /* Soft gray border */
+  border-bottom: 2px solid #1A5A5D;
   padding-bottom: 10px;
 }
 
-.bio-background, .bio-achievements, .bio-hobbies {
+.bio-background, .education, .bio-hobbies {
   margin-bottom: 40px;
 }
 
-.bio-background p, .bio-achievements ul, .bio-hobbies p {
+.bio-background p, .education ul, .bio-hobbies p {
   font-size: 1.2em;
   line-height: 1.6;
-  color: #333; /* Dark gray for text */
+  color: #333333; 
+
 }
 
-.bio-achievements ul {
+.education ul {
   list-style-type: disc;
   margin-left: 20px;
 }
 
-/* Add some hover effects for the profile image */
 .bio-image:hover {
-  transform: scale(1.05); /* Slight zoom for interaction */
+  transform: scale(1.05); 
   transition: transform 0.3s ease-in-out;
 }
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px; /* Reduced from 20px to 10px */
+  justify-items: center;
   margin-top: 20px;
 }
 
-.gallery img {
-  width: 100%;
-  height: auto;
+.gallery figure {
+  background-color: #FFFFFF; /* White card background */
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 5px;
 }
 
-.gallery img:hover {
+.gallery figure:hover {
   transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.gallery img {
+  width: 100%; /* Makes the image span the full width of the container */
+  height: 200px; /* Fixed height to make images uniform */
+  object-fit: cover; /* Ensures the image fits nicely without distortion */
+  display: block;
+}
+
+.gallery figcaption {
+  padding: 10px;
+  font-size: 12px;
+  font-family: 'YourChosenFont', sans-serif;
+  color: #333333;
+}
+
+@media (max-width: 768px) {
+  .gallery img {
+    height: 150px; /* Reduce height for smaller screens */
+  }
 }

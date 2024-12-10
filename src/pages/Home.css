@@ -1,35 +1,55 @@
-/* src/pages/Home.css */
 
 .home-container {
-    font-family: 'Arial', sans-serif;
     color: #333;
-    background-color: #f9f9f9;
+    background-color: #F5F5F5; 
   }
   
   .hero {
-    background-color: #ffccf9; /* Soft pink */
     padding: 50px 20px;
     text-align: center;
   }
   
   .hero h1 {
-    color: #5b2c6f; /* Dark purple */
-    font-size: 3em;
+    color: #003366;
+    font-size: 5em;
   }
   
   .hero p {
-    color: #6a4c9c; /* Lighter purple */
+    color: #333333;
     font-size: 1.2em;
+  }  
+
+  .highlight {
+    color: #003366;
+    font-weight: bold;
   }
+
+  .home-resume-link {
+    font-size: 16px;
+    font-family: 'Crimson Text', 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #1A5A5D;
+    transition: color 0.3s ease;
+    border: 2px solid #1A5A5D;
+    border-radius: 5px;
+    background-color: transparent;
+    font-weight: bold;
+  }
+
+  .home-resume-link:hover {
+    background-color: #1A5A5D;
+    color: #FFFFFF;
+  }
+
   
   .intro {
     padding: 30px;
-    background-color: #f3e5f5; /* Light purple */
     margin-top: 20px;
   }
   
   .intro h2 {
-    color: #8e44ad; /* Purple */
+    color: #003366; 
     font-size: 2em;
   }
   
@@ -38,36 +58,4 @@
     line-height: 1.6;
   }
   
-  .navigation {
-    margin-top: 20px;
-    text-align: center;
-  }
-  
-  .navigation ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .navigation li {
-    display: inline;
-    margin-right: 15px;
-  }
-  
-  .navigation a {
-    color: #5b2c6f;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .navigation a:hover {
-    text-decoration: underline;
-  }
-  
-  .footer {
-    text-align: center;
-    background-color: #ffccf9;
-    padding: 20px;
-    margin-top: 30px;
-    color: #5b2c6f;
-  }
-  
+ 

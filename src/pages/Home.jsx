@@ -5,30 +5,18 @@ const Home = () => {
   return (
     <div className="home-container">
       <header className="hero">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Discover my work, achievements, and passion for coding!</p>
+        <h1>Hello - I'm Zully!</h1>
+        <p>Pronounced <span class="highlight">zoo-lee</span> or <span class="highlight">soo-lee</span> :) </p>
+        <p>I am an HR Trainer for the University of Minnesota Foundation. I'm based in the Twin Cities
+          in Minnesota, but have roots in Grand Rapids, MI. I'm currently pursuing a career in web development
+          to help individuals and businesses create beautiful and accessible sites.
+          Discover my background, projects, and passion for coding via the links above.</p>
+        <p>Or check out my resume and connect:</p>
+        <a href="/downloads/Zully_Maya_CV.pdf" download="Zully_CV.pdf" className="home-resume-link">
+    Download My Resume
+  </a>
       </header>
-
-      <section className="intro">
-        <h2>About Me</h2>
-        <p>
-          I'm a passionate developer with a strong interest in front-end
-          technologies. I love building user-friendly, responsive websites and
-          applications.
-        </p>
-      </section>
-
-      <nav className="navigation">
-        <ul>
-          <li><a href="/biography">Biography</a></li>
-          <li><a href="/portfolio">Portfolio</a></li>
-          <li><a href="/contact">Contact</a></li>
-        </ul>
-      </nav>
-
-      <footer className="footer">
-        <p>© 2024 Your Name</p>
-      </footer>
+      
     </div>
   );
 };

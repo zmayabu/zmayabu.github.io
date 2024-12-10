@@ -5,7 +5,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio">
       <header className="portfolio-header">
-        <h1>My Ongoing Portfolio</h1>
+        <h1>Zully's Portfolio</h1>
         <p>
           Welcome to my portfolio! Here you can find details about my skills, ongoing projects, and aspirations.
         </p>
@@ -39,9 +39,9 @@ const Portfolio = () => {
             Will host soon - feel free to download the project folder for now.
           </p>
           <a
-            href="/makeup_invetory_project.zip"
+            href="/downloads/Makeup_inventory_project.zip"
             download="ZullyM_inventory_project.zip"
-            class="download-link">
+            className="download-link">
             Download Folder Here
           </a>
         </div>

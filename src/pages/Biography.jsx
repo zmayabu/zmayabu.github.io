@@ -48,7 +48,7 @@ const Biography = () => {
             <p>Some photos of me throughout the years!</p>
             <div className="gallery">
                 <figure>
-                    <img src="/images/cherry_blossoms.jpg" alt="Zully and Ammar under cherry blossom trees" />
+                    <img src="final-project\public\images\cherry_blossoms.jpg" alt="Zully and Ammar under cherry blossom trees" />
                     <figcaption>Ammar and I visiting the cherry blossoms in DC</figcaption>
                 </figure>
                 <figure><img src="/images/christmas.jpg" alt="Description 2" />

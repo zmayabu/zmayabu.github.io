@@ -23,7 +23,7 @@ const Navbar = () => {
             <Link to="/resume" className="navbar-link">View CV</Link>
           </li>
           <li>
-            <a href="/downloads/Zully_Maya_CV.pdf" download="Zully_CV.pdf" className="resume-link">
+            <a href={process.env.PUBLIC_URL + "/Zully_Maya_CV.pdf"} download="Zully_CV.pdf" className="resume-link">
               Download My Resume
             </a>
           </li>

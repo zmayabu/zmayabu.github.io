@@ -5,7 +5,7 @@ const Biography = () => {
     return (
         <div className="biography">
             <section className="bio-header">
-                <img src="/images/headshot.jpg" alt="Headshot of Zully Maya" className="bio-image" />
+                <img src={process.env.PUBLIC_URL + "/images/headshot.jpg"} alt="Headshot of Zully Maya" className="bio-image" />
                 <div className="bio-text">
                     <h1 className="bio-title">About Zully</h1>
                     <p className="bio-intro">
@@ -48,15 +48,15 @@ const Biography = () => {
             <p>Some photos of me throughout the years!</p>
             <div className="gallery">
                 <figure>
-                    <img src="/images/cherry_blossoms.jpg" alt="Zully and Ammar under cherry blossom trees" />
+                    <img src={process.env.PUBLIC_URL + "/images/cherry_blossoms.jpg"} alt="Zully and Ammar under cherry blossom trees" />
                     <figcaption>Ammar and I visiting the cherry blossoms in DC</figcaption>
                 </figure>
                 <figure><img src={process.env.PUBLIC_URL + "/images/christmas.jpg"} alt="Christmas" />
                     <figcaption>Ammar and I enjoying the christmas lights in Minneapolis</figcaption>
                 </figure>
-                <figure><img src="/images/eid.jpg" alt="Eid 2023" />
+                <figure><img src={process.env.PUBLIC_URL + "/images/eid.jpg"} alt="Eid 2023" />
                     <figcaption>Ammar and I celebrating Eid in 2023</figcaption></figure>
-                <figure><img src="/images/glow.jpg" alt="Glow festival 2024" />
+                <figure><img src={process.env.PUBLIC_URL + "/images/glow.jpg"} alt="Glow festival 2024" />
                     <figcaption>Celebrating Glow Christmas Festival this month</figcaption></figure>
 
             </div>

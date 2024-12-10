@@ -39,7 +39,7 @@ const Portfolio = () => {
             Will host soon - feel free to download the project folder for now.
           </p>
           <a
-            href="/downloads/Makeup_inventory_project.zip"
+            href={process.env.PUBLIC_URL + "/downloads/Makeup_inventory_project.zip"}
             download="ZullyM_inventory_project.zip"
             className="download-link">
             Download Folder Here

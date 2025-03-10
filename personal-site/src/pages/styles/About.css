@@ -1,0 +1,48 @@
+/* src/components/About.css */
+.about {
+  background-color: #FFFFFF; /* Clean background */
+  padding: 50px 20px;
+}
+
+.section {
+  margin-bottom: 40px; /* Spacing between sections */
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  color: #FF6F61; /* Accent color */
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.1em;
+  color: #4B4F58; /* Neutral text color */
+  line-height: 1.6;
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.picture-gallery {
+  display: flex;
+  gap: 20px;
+}
+
+.picture-gallery img {
+  width: 30%;
+  border-radius: 10px; /* Rounded corners for images */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+@media (max-width: 768px) {
+  .picture-gallery img {
+    width: 100%; /* Stack images on smaller screens */
+  }
+}
+
+  

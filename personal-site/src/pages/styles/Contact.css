@@ -1,0 +1,39 @@
+/* src/components/Contact.css */
+.contact {
+    background-color: #FFFFFF;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    color: #FF6F61;
+    margin-bottom: 30px;
+  }
+  
+  .contact input,
+  .contact textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #DDD;
+    border-radius: 10px; /* Rounded corners */
+    font-size: 1em;
+  }
+  
+  .contact button {
+    background-color: #FF6F61;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact button:hover {
+    background-color: #FF3B2A; /* Slightly darker for hover effect */
+  }
+  

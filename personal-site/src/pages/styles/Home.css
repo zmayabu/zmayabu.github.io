@@ -1,0 +1,21 @@
+/* src/components/Home.css */
+.home {
+    background-color: #FFFFFF; /* White background */
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .home h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    color: #FF6F61; /* Fun accent color */
+  }
+  
+  .home p {
+    font-size: 1.2em;
+    color: #4B4F58;
+    max-width: 600px;
+    margin: 0 auto;
+    font-weight: 400;
+  }
+  

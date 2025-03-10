@@ -1,21 +1,130 @@
-/* src/components/Home.css */
+/* src/pages/Home.css */
+
+/* General Layout */
 .home {
-    background-color: #FFFFFF; /* White background */
-    padding: 50px 20px;
+  width: 100%;
+  background-color: var(--background-color);
+}
+
+/* Section Styling */
+.section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+.section p {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* About Section */
+.about-preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 60px 20px;
+}
+
+.about-preview img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-preview .about-text {
+  max-width: 500px;
+  text-align: left;
+}
+
+.about-button {
+    display: inline-block;
+    background-color: #d4a373;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.about-button:hover {
+  background-color: #c28964;
+}
+
+/* Services / Highlights Section */
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.highlight-box {
+  padding: 30px;
+  border-radius: 10px;
+  background: var(--primary-color);
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.highlight-box:hover {
+  transform: translateY(-5px);
+}
+
+/* CTA (Call-To-Action) Section */
+.cta {
+  background: var(--accent-color);
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.cta p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  background: white;
+  color: var(--accent-color);
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cta-button:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-preview {
+    flex-direction: column;
     text-align: center;
   }
-  
-  .home h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 3em;
-    color: #FF6F61; /* Fun accent color */
+
+  .about-preview .about-text {
+    text-align: center;
   }
-  
-  .home p {
-    font-size: 1.2em;
-    color: #4B4F58;
-    max-width: 600px;
-    margin: 0 auto;
-    font-weight: 400;
-  }
+}
+
   

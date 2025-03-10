@@ -1,27 +1,70 @@
-/* src/App.css */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* styles.css */
+:root {
+  --primary-color: #f5efe7;  /* Soft beige */
+  --text-color: #333;
+  --accent-color: #d4a373;   /* Muted pastel brown */
+  --background-color: #fff;
+  --font: 'Poppins', sans-serif;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #F4F4F9; /* Soft background */
-  color: #4B4F58;
+  font-family: var(--font);
+  color: var(--text-color);
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
   line-height: 1.6;
 }
 
-h1, h2 {
-  font-family: 'Playfair Display', serif;
-  color: #FF6F61; /* Fun accent color */
+h1 {
+  font-family: "Sofia";
+}
+
+h2 {
+  font-family: "Sofia";
+}
+
+h3 {
+  font-family: "Delius Swash Caps";
+}
+
+p {
+  font-family: "Delius";
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Utility classes */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #c28964;
 }
 
 a {
-  color: #FF6F61;
+  color: var(--text-color);
   text-decoration: none;
+  transition: color 0.3s;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: var(--accent-color);
 }

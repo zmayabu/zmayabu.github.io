@@ -1,41 +1,40 @@
-// src/components/Contact.js
-import React, { useState } from 'react';
-import './styles/Contact.css';
+import React from "react";
+import "./styles/Contact.css";
 
 const Contact = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    alert(`Message sent from ${name} (${email})`);
-  };
-
   return (
-    <section id="contact" className="contact">
-      <h2>Contact Me</h2>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="Your Name"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
-        <input
-          type="email"
-          placeholder="Your Email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-        <textarea
-          placeholder="Your Message"
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
-        />
-        <button type="submit">Send Message</button>
-      </form>
-    </section>
+    <div className="contact-container">
+      <div className="contact-content">
+        <div className="contact-text">
+          <h2>Get in Touch</h2>
+          <p>
+            Whether you have a project idea or just want to say hi, I'm always 
+            happy to connect. Let's build something amazing together!
+          </p>
+        </div>
+        
+        <div className="contact-form">
+          <form>
+            <div className="form-group">
+              <label htmlFor="name">Name</label>
+              <input type="text" id="name" placeholder="Your Name" required />
+            </div>
+
+            <div className="form-group">
+              <label htmlFor="email">Email</label>
+              <input type="email" id="email" placeholder="Your Email" required />
+            </div>
+
+            <div className="form-group">
+              <label htmlFor="message">Message</label>
+              <textarea id="message" placeholder="Write your message..." rows="4" required></textarea>
+            </div>
+
+            <button type="submit" className="submit-button">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
   );
 };
 

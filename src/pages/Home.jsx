@@ -1,5 +1,6 @@
 import React from "react";
 import './Home.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -12,9 +13,9 @@ const Home = () => {
           to help individuals and businesses create beautiful and accessible sites.
           Discover my background, projects, and passion for coding via the links above.</p>
         <p>Or check out my resume and connect:</p>
-        <a href="/resume" className="home-resume-link">
+        <Link to="/resume" className="home-resume-link">
           Download My Resume
-        </a>
+        </Link>
       </header>
 
     </div>

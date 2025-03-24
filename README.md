@@ -3,7 +3,7 @@
 Welcome to my personal website that was initally started in CS601 for my BU grad studies! This project is built using **React** and hosted on **GitHub Pages**.
 
 ## 🌐 Live Demo
-You can view the live version of my site here: [Your GitHub Pages Link](https://your-username.github.io/your-repository)
+You can view the live version of my site here: [Site Link](https://zmayabu.github.io/)
 
 ## 🛠️ Tech Stack
 - **React** – Frontend framework

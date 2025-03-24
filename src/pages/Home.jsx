@@ -12,7 +12,7 @@ const Home = () => {
           to help individuals and businesses create beautiful and accessible sites.
           Discover my background, projects, and passion for coding via the links above.</p>
         <p>Or check out my resume and connect:</p>
-        <a href={process.env.PUBLIC_URL + "/Zully_Maya_CV.pdf"} download="Zully_CV.pdf" className="home-resume-link">
+        <a href="/resume" className="home-resume-link">
           Download My Resume
         </a>
       </header>

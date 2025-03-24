@@ -1,6 +1,8 @@
 import React from 'react';
 import './Portfolio.css';
 
+// Portfolio Page
+
 const Portfolio = () => {
   return (
     <div className="portfolio">
@@ -28,30 +30,45 @@ const Portfolio = () => {
         <div className="project-card">
           <h3>Personal Website (Ongoing) </h3>
           <p>
-            My first official web project from CS601: Developing a responsive and modern personal website to showcase my skills and projects using React.
+            This was actually my first official web project from CS601. Developing a responsive and modern personal website to showcase my skills and projects using React.
             You're using it right now!
           </p>
+          <a
+            href="https://github.com/zmayabu/zmayabu.github.io"
+            className="download-link">
+            Githunb Repo
+          </a>
         </div>
         <div className="project-card">
-          <h3>Store Inventory (Ongoing) </h3>
+          <h3>Store Inventory (Front End)</h3>
           <p>
             A small makeup inventory site that I made during CS601 using React that showcases my web design skills.
-            Will host soon - feel free to download the project folder for now.
           </p>
           <a
-            href={process.env.PUBLIC_URL + "/downloads/Makeup_inventory_project.zip"}
-            download="ZullyM_inventory_project.zip"
+            href="https://github.com/zmayabu/frontend_inventory_project"
             className="download-link">
-            Download Folder Here
+            GitHub Repo
+          </a>
+        </div>
+        <div className="project-card">
+          <h3>Store Inventory (Back End)</h3>
+          <p>
+            An extension to the makeup inventory I made in CS 601. This time it is server side focused using backend technologies like Express.js, 
+            MongoDB, and GraphQL. 
+          </p>
+          <a
+            href="https://github.com/zmayabu/serverside_inventory_project"
+            className="download-link">
+            GitHub Repo
           </a>
         </div>
       </section>
       <section className="aspirations">
         <h2>Future Aspirations</h2>
         <p>
-          I aim to expand my expertise in full-stack development and contribute to impactful open-source projects.
-          Next semester I'll take CS 602: Server side web development, and would like to work on web projects that
-          have more functioning backend capabilities.
+          I would like to connect my two projects to create a fullstack inventory application. Moreover, I would like to 
+          expand into professional level projects to add to my portfolio whether it be through internships or freelance projects.
+          Feel free to connect if you have any ideas!
         </p>
       </section>
     </div>
